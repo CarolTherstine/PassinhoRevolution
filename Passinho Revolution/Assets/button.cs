@@ -8,4 +8,8 @@ public class button : MonoBehaviour {
     {
         EditorSceneManager.LoadScene(rematchgame);
     }
+
+	public void eventQuit(){
+		Application.Quit ();
+	}
 }

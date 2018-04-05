@@ -13,17 +13,23 @@ public class HealthP1 : MonoBehaviour
     private float MaxHealth;
     [SerializeField]
     private float CurrentHealth;
-    // Use this for initialization
+	private GameManagerScript gm;
+	private GameObject currentMusic;
+	private AudioClip audio;
+	private float duration;
+
     void Start()
     {
         MaxHealth = 100f;
         CurrentHealth = MaxHealth;
         healthbar.value = MaxHealth;
+		duration = audio.length;
     }
 
     // Update is called once per frame
     void Update()
     {
+		
     }
     public void Damage(float dmgvalue)
     {
@@ -34,6 +40,7 @@ public class HealthP1 : MonoBehaviour
             EditorSceneManager.LoadScene(levelToload); //mudo a cena para a cena de victoria do player oposto
         }
     }
+
     float calculatehealt()
     {
         return CurrentHealth / MaxHealth;

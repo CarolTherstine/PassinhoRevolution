@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/passinho scene.unity
+- path: Assets/menuScreen.unity
   isLoaded: 1
   isActive: 1
