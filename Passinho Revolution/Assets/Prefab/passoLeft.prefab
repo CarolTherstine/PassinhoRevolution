@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114197997214784578}
   - component: {fileID: 61363110577276446}
   m_Layer: 0
-  m_Name: passo left(Clone) (8)
+  m_Name: passoLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
